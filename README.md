@@ -1,4 +1,4 @@
-# MFA-Integration
+
 # Okta SSO & MFA Lab
 
 ## 📌 Project Overview
