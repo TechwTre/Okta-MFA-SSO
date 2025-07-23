@@ -1,19 +1,19 @@
 
 # Okta SSO & MFA Lab
 
-## 📌 Project Overview
+## Project Overview
 This lab demonstrates how to set up **Okta Single Sign-On (SSO) and Multi-Factor Authentication (MFA)** with **adaptive MFA policies** and **API-based user lifecycle automation**. Additionally, it includes **PowerShell scripts** for user provisioning and **simulated IAM governance workflows** with logging & alerting.
 
-## 🚀 Features
-- 🔐 **Okta SSO & MFA Implementation**
-- ⚡ **Adaptive MFA Policies**
-- 🛠 **API-Based User Lifecycle Automation**
-- 🏗 **PowerShell Automation for User Management**
-- 📜 **IAM Governance Logging & Alerting**
+## Features
+- **Okta SSO & MFA Implementation**
+- **Adaptive MFA Policies**
+- **API-Based User Lifecycle Automation**
+- **PowerShell Automation for User Management**
+- **IAM Governance Logging & Alerting**
 
 ---
 
-## 🛠 Prerequisites
+## Prerequisites
 - [ ] Okta Developer Account ([Sign up for free](https://developer.okta.com/))
 - [ ] Python 3.x installed
 - [ ] PowerShell (for Windows automation scripts)
@@ -22,20 +22,20 @@ This lab demonstrates how to set up **Okta Single Sign-On (SSO) and Multi-Factor
 
 ---
 
-## 📂 Project Structure
+## Project Structure
 ```
-📂 okta-sso-mfa-lab
-│── 📜 README.md       # Documentation
-│── 📜 .env.example    # Sample environment config
-│── 📜 requirements.txt # Python dependencies
-│── 🐍 setup_okta_sso.py  # Script to configure SSO & MFA in Okta
-│── 📜 user_lifecycle.ps1 # PowerShell script for user provisioning/deprovisioning
-│── 📜 alert_logging.py  # IAM Governance logging & alerting
+ okta-sso-mfa-lab
+│──  README.md       # Documentation
+│── .env.example    # Sample environment config
+│── requirements.txt # Python dependencies
+│── setup_okta_sso.py  # Script to configure SSO & MFA in Okta
+│── user_lifecycle.ps1 # PowerShell script for user provisioning/deprovisioning
+│── alert_logging.py  # IAM Governance logging & alerting
 ```
 
 ---
 
-## 🔧 Setup Instructions
+## Setup Instructions
 
 ### 1️⃣ Clone the Repository
 ```bash
@@ -62,7 +62,7 @@ python setup_okta_sso.py
 
 ---
 
-## 🔑 Key Components
+## Key Components
 
 ### `setup_okta_sso.py` (Python)
 Handles:
@@ -82,7 +82,7 @@ Handles:
 
 ---
 
-## 🔥 Running IAM Governance & Automation
+## Running IAM Governance & Automation
 ### Execute User Lifecycle Management Script
 ```powershell
 ./user_lifecycle.ps1
@@ -95,9 +95,9 @@ python alert_logging.py
 
 ---
 
-## 📌 Next Steps
-🔹 Deploy this setup in a real-world IAM lab.  
-🔹 Extend with additional Okta Workflows or SCIM provisioning.
+## Next Steps
+Deploy this setup in a real-world IAM lab.  
+Extend with additional Okta Workflows or SCIM provisioning.
 
 ---
 
